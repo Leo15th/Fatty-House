@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html,body{
+    scroll-behavior: smooth;
+}
+
 li{
     cursor: pointer;
 }
