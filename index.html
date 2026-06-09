@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type=" scroll-mt-12image/svg+xml" href="/Fatty-House/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatty House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" crossorigin href="/Fatty-House/assets/index-BGEBCwbK.css">
+  </head>
+  <body>
+    <header>
+      <nav class="bg-transparent text-white flex justify-between items-center p-3 fixed left-0 right-0 z-50 md:px-6 lg:px-14">
+        <h1 id="logo" class="text-2xl md:text-3xl font-bold">Fatty House</h1>
+        <button id="mobile-menu-icon-btn" class="cursor-pointer block md:hidden">
+          <i id="mobile-menu-icon" class="fa-solid fa-bars text-2xl"></i>
+        </button>
+        <ul class="hidden md:flex text-lg gap-6 lg:gap-10">
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#hero">Home</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#about-us">About</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#featured-menu">Featured Menus</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#contact">Contact</a></li>
+        </ul>
+        <ul id="mobile-menu" class="absolute top-full right-0 bg-transparent backdrop-blur-2xl border-l border-b border-white/50 py-4 px-8 flex flex-col gap-3 pb-6 rounded-bl-2xl w-1/2 transition-all duration-300 ease-in-out pointer-events-none opacity-0 translate-x-full">
+          <li class="hover:bg-amber-500 p-2 text-md rounded-xl hover:scale-110 hover:font-bold"><a href="#hero" class="text-shadow-md text-shadow-black">Home</a></li>
+          <li class="hover:bg-amber-500 p-2 text-md rounded-xl hover:scale-110 hover:font-bold"><a href="#about-us" class="text-shadow-md text-shadow-black">About Us</a></li>
+          <li class="hover:bg-amber-500 p-2 text-md rounded-xl hover:scale-110 hover:font-bold"><a href="#featured-menu" class="text-shadow-md text-shadow-black">Featured Menu</a></li>
+          <li class="hover:bg-amber-500 p-2 text-md rounded-xl hover:scale-110 hover:font-bold"><a href="#contact" class="text-shadow-md text-shadow-black">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="text-white">
+      <section id="hero" style="background-image: url('https://images.unsplash.com/photo-1610970878459-a0e464d7592b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1cmdlcnxlbnwwfDB8MHx8fDI%3D');" class="bg-cover bg-center bg-no-repeat relative pt-28 pb-20 px-6 scroll-mt-12 lg:py-40">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-40 text-center">
+          <h2 class="text-3xl font-bold font-mono mb-4 text-shadow-md text-shadow-black md:text-5xl md:font-black md:mb-7">Bite into happiness</h2>
+          <p class="text-md font-serif mb-4 text-shadow-sm text-shadow-black md:text-lg md:mb-6 md:text-shadow-md leading-relaxed tracking-wider">Juicy burgers, crispy fries, and more—served hot & fast.</p>
+          <button type="button" class="border border-slate-200/45 bg-transparent backdrop-blur-xs px-3 py-2 rounded-xl font-bold shadow-md shadow-black text-shadow-md text-shadow-black cursor-pointer text-lg transition-colors duration-300 ease-in-out hover:bg-amber-600" onclick="window.alert('Not available For Now')">Explore Menu</button>
+        </div>
+      </section>
+      <section id="about-us" class="bg-slate-800 py-8 px-10 scroll-mt-12 lg:py-20 lg:px-32">
+        <h2 class="text-3xl font-bold font-mono mb-4 text-shadow-md text-shadow-black text-center md:text-5xl md:mb-10">About Us</h2>
+        <p class="text-md font-serif mb-6 text-shadow-sm text-shadow-black text-justify leading-relaxed tracking-wide md:text-lg">At Fatty House, we believe fast food should be more than just quick—it should be delicious, satisfying, and made with care. From our juicy burgers and crispy fries to our signature shakes, every bite is crafted to bring comfort and joy. We started with one simple idea: serve bold flavors at affordable prices, in a place where everyone feels welcome. Whether you’re grabbing a meal on the go or sharing with friends, Fatty is here to make every moment tasty.</p>
+      </section>
+      <section id="featured-menu" class="bg-gray-700 py-6 px-10 scroll-mt-12  lg:py-20 lg:px-32">
+        <h2 class="text-3xl font-bold font-mono mb-4 text-shadow-md text-shadow-black text-center md:text-5xl md:mb-10">Our Fatty Favorites</h2>
+        <p class="text-md font-serif mb-6 text-shadow-sm text-shadow-black text-center leading-relaxed tracking-wide md:text-lg md:tracking-wider md:mb-10">Handpicked meals that keep our fans coming back for more. Big flavor, big portions, and always fresh</p>
+        <div id="card-holder" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-8 md:mb-10">
+          <div class="card rounded-2xl overflow-hidden shadow-lg shadow-black/70 bg-black/20">
+            <img src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="classic fatty burger" class="object-cover object-center w-full h-auto aspect-square">
+            <div id="img-description" class="px-4 py-4 flex flex-col gap-4">
+              <h3 class="text-xl font-bold font-mono">Classic Fatty Burger</h3>
+              <p class="text-md leading-relaxed tracking-wide">Double beef, melty cheese, and our secret sauce</p>
+            </div>
+          </div>
+          <div class="card rounded-2xl overflow-hidden shadow-lg shadow-black/70 bg-black/20">
+            <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGJ1cmdlcnxlbnwwfDF8MHx8fDI%3D" alt="crispy chicken deluxe burger" class="object-cover object-center w-full h-auto aspect-square">
+            <div id="img-description" class="px-4 py-4 flex flex-col gap-4">
+              <h3 class="text-xl font-bold font-mono">Crispy Chicken Deluxe</h3>
+              <p>Golden fried chicken stacked with fresh lettuce and mayo</p>
+            </div>
+          </div>
+          <div class="card rounded-2xl overflow-hidden shadow-lg shadow-black/70 bg-black/20">
+            <img src="https://images.unsplash.com/photo-1700835880456-2e5519fa54d6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fatty loaded fries" class="object-cover object-center w-full h-auto aspect-square">
+            <div id="img-description" class="px-4 py-4 flex flex-col gap-4">
+              <h3 class="text-xl font-bold font-mono">Fatty Loaded Fries</h3>
+              <p>Crispy fries topped with creamy cheese, smoky bacon, and fresh green onions</p>
+            </div>
+          </div>
+          <div class="card rounded-2xl overflow-hidden shadow-lg shadow-black/70 bg-black/20">
+            <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2hha2V8ZW58MHwxfDB8fHwy" alt="classic fatty burger" class="object-cover object-center w-full h-auto aspect-square">
+            <div id="img-description" class="px-4 py-4 flex flex-col gap-4">
+              <h3 class="text-xl font-bold font-mono">Fatty Signature Shake</h3>
+              <p>Thick, creamy, and available in chocolate, vanilla, or strawberry</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button type="button" class="border border-slate-200/45 bg-transparent backdrop-blur-xs px-3 py-2 rounded-xl font-bold shadow-md shadow-black text-shadow-md text-shadow-black cursor-pointer text-lg transition-colors duration-300 ease-in-out hover:bg-amber-600" onclick="window.alert('Not Available for Now')">Explore Menu</button>
+        </div>
+      </section>
+      <section id="contact" class="bg-slate-950 p-10 scroll-mt-12 md:px-20  lg:py-20 lg:px-32">
+        <h2 class="text-3xl font-bold font-mono mb-4 text-shadow-md text-shadow-black text-center md:text-4xl md:mb-10">Get In Touch With Fatty</h2>
+        <p class="text-md font-serif mb-8 text-shadow-sm text-shadow-black text-justify leading-relaxed tracking-wide md:mb-10">Hungry for more? Whether you’ve got questions, feedback, or just craving your next meal—we’re here to help</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <ul class="flex flex-col gap-5 p-6 shadow-lg shadow-slate-300 rounded-2xl justify-center lg:px-14">
+            <li class="w-fit">
+              <a href="https://maps.app.goo.gl/16fwi8B1CpqpB32j9" target="_blank" class="flex items-center gap-3 cursor-pointer hover:text-amber-500">
+                <i class="fa-solid fa-location-dot text-2xl"></i>
+                <span>Address: 123 Flavor Street, Chiang Mai, Thailand</span>
+              </a>
+            </li>
+            <li class="w-fit">
+              <a href="tel:66949407681" class="flex items-center gap-3 cursor-pointer hover:text-amber-500">
+                <i class="fa-solid fa-phone-volume text-2xl"></i>
+                <span>Phone: +66 94 940 7681</span>
+              </a>
+            </li>
+            <li class="w-fit">
+              <a href="mailto:pwaiag2023@gmail.com" class="flex items-center gap-3 cursor-pointer hover:text-amber-500">
+                <i class="fa-solid fa-envelope text-2xl"></i>
+                <span>Email: info@fattyrestaurant.com</span>
+              </a>
+            </li>
+          </ul>
+          <form id="message-form" action="POST" class="p-6 shadow-lg shadow-slate-300 rounded-2xl">
+            <label for="message" class="block text-2xl font-bold mb-4">Leave as a message</label>
+            <textarea name="message" id="message" class="border text-lg rounded-lg w-full p-4" placeholder="Input Your Message Here" required></textarea>
+            <div class="flex justify-end">
+              <button type="submit"  class="border border-slate-200/45 bg-transparent backdrop-blur-xs px-3 py-2 rounded-xl font-bold shadow-md shadow-black text-shadow-md text-shadow-black cursor-pointer text-lg transition-colors duration-300 ease-in-out hover:bg-amber-600 mt-8">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-slate-950 text-white">
+      <div class="mb-10 pt-10">
+        <h3 class="text-center text-2xl font-bold mb-6 md:text-3xl">Quick Links</h3>
+        <ul class="flex gap-4 mx-auto w-fit text-lg md:gap-8">
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#hero">Home</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#featured-menu">Featured Menus</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#about-us">About</a></li>
+          <li class="hover:text-amber-500 hover:font-bold hover:scale-110"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="pt4">
+        <h3 class="text-center text-2xl font-bold mb-6 md:text-3xl md:mb-10">Follow Us</h3>
+        <ul class="flex gap-16 mx-auto w-fit md:gap-20">
+          <li class="hover:scale-125"><a href="https://www.facebook.com" class="hover:text-amber-500">
+            <i class="fa-brands fa-facebook text-3xl"></i>
+          </a></li>
+          <li class="hover:scale-125"><a href="https://www.instagram.com" class="hover:text-amber-500">
+            <i class="fa-brands fa-instagram text-3xl"></i>
+          </a></li>
+          <li class="hover:scale-125"><a href="https://www.twitter.com" class="hover:text-amber-500">
+            <i class="fa-brands fa-x-twitter text-3xl"></i>
+          </a></li>
+        </ul>
+      </div>
+      <div class="w-10/12 border-t mx-auto mt-10 p-8">
+        <p class="text-center cursor-default select-none">© 2026 Fatty House. All rights reserved</p>
+      </div>
+    </footer>
+  
+    <script src="src/script.js"></script>
+  </body>
+</html>
